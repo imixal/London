@@ -1,0 +1,61 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
+h1{
+    text-align:center;
+    font-weight:800;
+
+}
+.row{
+    margin:10px 0;
+}
+.search-li{
+    display:inline-block;
+    font-size:20px;
+    font-weight:700;
+    line-height:40px;
+    text-align:left
+}
+.point-li{
+    display:inline-block;
+}
+.search-li:hover {
+    cursor:pointer
+}
+.point{
+    line-height:75px;
+    width:100%;
+    position:relative;
+    height:75px;
+
+    border: 1px solid #f0f0f0;
+    border-bottom: 2px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#BikePoint{
+    height:450px;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
+#result{
+    line-height:400px;
+    text-align:center;
+    font-size:45px;
+    font-weight:900;
+    opacity:.8;
+}
+#map{
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    height:300px;
+}
+.btn{
+    position:absolute;
+    right:10px;
+    top:20px;
+}

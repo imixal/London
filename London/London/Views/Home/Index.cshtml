@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <h1>Find Your BikePoint</h1>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
+            <form action="javascript: submit_form();">
+                <input id="search" class="form-control form-inline" type="text" placeholder="Search" />
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container" id="BikePoint">
+    <p id="result">Result</p>
+</div>
+
+<div id="map"></div>
